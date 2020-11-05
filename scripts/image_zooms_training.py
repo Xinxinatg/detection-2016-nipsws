@@ -4,8 +4,8 @@ import math as mth
 from PIL import Image, ImageDraw, ImageFont
 import scipy.io
 from keras.models import Sequential
-from keras import initializations
-from keras.initializations import normal, identity
+from keras import initializers
+from keras.initializers import normal, identity
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.optimizers import RMSprop, SGD, Adam
 import random
